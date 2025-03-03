@@ -22,5 +22,5 @@ def stream_video(url):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    video_url = "rtsp://127.0.0.1:554/00111C05DA8B"
+    video_url = "rtsp://127.0.0.1/00111C05DA8B"
     stream_video(video_url)
