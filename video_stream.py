@@ -16,6 +16,7 @@ def stream_video(url):
         cv2.imshow('Video Stream', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
+            print(frame)
             break
 
     cap.release()
